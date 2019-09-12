@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Tool">
+      <UniqueIdentifier>{99237c13-7efd-462b-9e65-4b08fd891275}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="tool\PgBase.h">
+      <Filter>Tool</Filter>
+    </ClInclude>
+    <ClInclude Include="tool\Connection.h">
+      <Filter>Tool</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="tool\PgBase.cpp">
+      <Filter>Tool</Filter>
+    </ClCompile>
+    <ClCompile Include="tool\main.cpp" />
+    <ClCompile Include="tool\Connection.cpp">
+      <Filter>Tool</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
